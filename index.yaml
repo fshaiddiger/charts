@@ -1,0 +1,898 @@
+apiVersion: v1
+entries:
+  hlf-ca:
+  - apiVersion: v2
+    appVersion: 1.5.1
+    created: "2022-04-06T18:49:44.931711027Z"
+    description: Hyperledger Fabric Certificate Authority chart (these charts are
+      forked from the one by AID:Tech and are currently not directly associated with
+      them or Hyperledger project)
+    digest: 6f4ec759069bd9e487bb93e97fcb8fb70f82eb775a5eea12b4763100f13e4fce
+    home: http://hyperledger-fabric-ca.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-ca
+    sources:
+    - https://github.com/hyperledger/fabric-ca
+    type: application
+    urls:
+    - hlf-ca-2.1.0.tgz
+    version: 2.1.0
+  - apiVersion: v2
+    appVersion: 1.4.3
+    created: "2022-04-06T18:49:44.930504025Z"
+    description: Hyperledger Fabric Certificate Authority chart (these charts are
+      forked from the one by AID:Tech and are currently not directly associated with
+      them or Hyperledger project)
+    digest: 2752b8b938ef5b089f8c99fd5b27a4358689753a03c35406c259287ab3061ee2
+    home: http://hyperledger-fabric-ca.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-ca
+    sources:
+    - https://github.com/hyperledger/fabric-ca
+    type: application
+    urls:
+    - hlf-ca-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.4.3
+    created: "2022-04-06T18:49:44.929498624Z"
+    description: Hyperledger Fabric Certificate Authority chart (these charts are
+      forked from the one by AID:Tech and are currently not directly associated with
+      them or Hyperledger project)
+    digest: bc8ffb95aaee82d066916f7e1f1ad81a7e0c18627e9835f31cf252c127c5921b
+    home: http://hyperledger-fabric-ca.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    kubeVersion: '>= 1.19.0'
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-ca
+    sources:
+    - https://github.com/hyperledger/fabric-ca
+    type: application
+    urls:
+    - hlf-ca-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v1
+    appVersion: 1.4.3
+    created: "2022-04-06T18:49:44.928130523Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.helm.sh/stable
+      tags:
+      - postgres-database
+      version: 2.6.1
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      tags:
+      - mysql-database
+      version: 0.10.2
+    description: Hyperledger Fabric Certificate Authority chart (these charts are
+      forked from the one by AID:Tech and are currently not directly associated with
+      them or Hyperledger project)
+    digest: cd1988e082c24191acba4b57c34e54fcea7532bc16b9825443c02794a67c6266
+    home: http://hyperledger-fabric-ca.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-ca
+    sources:
+    - https://github.com/hyperledger/fabric-ca
+    urls:
+    - hlf-ca-1.2.0.tgz
+    version: 1.2.0
+  hlf-couchdb:
+  - apiVersion: v2
+    appVersion: 3.1.1
+    created: "2022-04-06T18:49:44.935916031Z"
+    description: CouchDB instance for Hyperledger Fabric (these charts are forked
+      from the one by AID:Tech and are currently not directly associated with them
+      or Hyperledger project)
+    digest: dded771e153bb3810f4683e57a48ce4ee8790f453183452083b47c6ac6dd2b49
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    - couchdb
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-couchdb
+    sources:
+    - https://github.com/hyperledger/fabric
+    type: application
+    urls:
+    - hlf-couchdb-2.1.0.tgz
+    version: 2.1.0
+  - apiVersion: v2
+    appVersion: 3.1.1
+    created: "2022-04-06T18:49:44.93422983Z"
+    description: CouchDB instance for Hyperledger Fabric (these charts are forked
+      from the one by AID:Tech and are currently not directly associated with them
+      or Hyperledger project)
+    digest: 95ef5ca6604f298f0837916aa69f7c1e18d550b0230a88dee96aed8cc6812d2d
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    - couchdb
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-couchdb
+    sources:
+    - https://github.com/hyperledger/fabric
+    type: application
+    urls:
+    - hlf-couchdb-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 3.1.1
+    created: "2022-04-06T18:49:44.933577129Z"
+    description: CouchDB instance for Hyperledger Fabric (these charts are forked
+      from the one by AID:Tech and are currently not directly associated with them
+      or Hyperledger project)
+    digest: 78ee893f897dfa86f022b4769b1524b8398d266db607a090a797673cb63889c5
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    - couchdb
+    kubeVersion: '>= 1.19.0'
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-couchdb
+    sources:
+    - https://github.com/hyperledger/fabric
+    type: application
+    urls:
+    - hlf-couchdb-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v1
+    appVersion: 3.1.1
+    created: "2022-04-06T18:49:44.932940728Z"
+    description: CouchDB instance for Hyperledger Fabric (these charts are forked
+      from the one by AID:Tech and are currently not directly associated with them
+      or Hyperledger project)
+    digest: 1f45c17ee6c4ae3237bc326617f4937548258682f3c91cb3f4e772057f8f5f5a
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    - couchdb
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-couchdb
+    sources:
+    - https://github.com/hyperledger/fabric
+    urls:
+    - hlf-couchdb-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
+    appVersion: 0.4.10
+    created: "2022-04-06T18:49:44.932347827Z"
+    description: CouchDB instance for Hyperledger Fabric (these charts are forked
+      from the one by AID:Tech and are currently not directly associated with them
+      or Hyperledger project)
+    digest: 2ff197ceb8c781e3e5a6b2ec8963b54271e8b10bac4ad6ce5ef9d5c4500638d6
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    - couchdb
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-couchdb
+    sources:
+    - https://github.com/hyperledger/fabric
+    urls:
+    - hlf-couchdb-1.0.7.tgz
+    version: 1.0.7
+  hlf-ord:
+  - apiVersion: v2
+    appVersion: 2.2.1
+    created: "2022-04-06T18:49:44.941885538Z"
+    description: Hyperledger Fabric Orderer chart (these charts are forked from the
+      one by AID:Tech and are currently not directly associated with them or Hyperledger
+      project)
+    digest: bcd2617f48f9fe5dfbb0f3984cea629f8d6b3be379cd5247f476fc86d619ec2c
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-ord
+    sources:
+    - https://github.com/hyperledger/fabric
+    type: application
+    urls:
+    - hlf-ord-3.1.0.tgz
+    version: 3.1.0
+  - apiVersion: v2
+    appVersion: 2.2.1
+    created: "2022-04-06T18:49:44.940772137Z"
+    description: Hyperledger Fabric Orderer chart (these charts are forked from the
+      one by AID:Tech and are currently not directly associated with them or Hyperledger
+      project)
+    digest: ef2c71a56486616e3623abee8ed84aea5d17e3456b5bfee434f3fc5fda58c773
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-ord
+    sources:
+    - https://github.com/hyperledger/fabric
+    type: application
+    urls:
+    - hlf-ord-3.0.1.tgz
+    version: 3.0.1
+  - apiVersion: v2
+    appVersion: 2.2.1
+    created: "2022-04-06T18:49:44.939772536Z"
+    description: Hyperledger Fabric Orderer chart (these charts are forked from the
+      one by AID:Tech and are currently not directly associated with them or Hyperledger
+      project)
+    digest: 7edfb025d488694541db192ef1af643cb713987e1158da7666477058a3185cac
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    kubeVersion: '>= 1.19.0'
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-ord
+    sources:
+    - https://github.com/hyperledger/fabric
+    type: application
+    urls:
+    - hlf-ord-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v1
+    appVersion: 2.2.1
+    created: "2022-04-06T18:49:44.938491234Z"
+    description: Hyperledger Fabric Orderer chart (these charts are forked from the
+      one by AID:Tech and are currently not directly associated with them or Hyperledger
+      project)
+    digest: 23bd748d78e989774ca8e004c8b3d30143bd868bbb07d95c48a53cdb7584977c
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-ord
+    sources:
+    - https://github.com/hyperledger/fabric
+    urls:
+    - hlf-ord-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v1
+    appVersion: 2.2.1
+    created: "2022-04-06T18:49:44.937116533Z"
+    description: Hyperledger Fabric Orderer chart (these charts are forked from the
+      one by AID:Tech and are currently not directly associated with them or Hyperledger
+      project)
+    digest: b74f77c4df93717514133301714a477b6f40a06c45901cd4da4856d901cbcd97
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-ord
+    sources:
+    - https://github.com/hyperledger/fabric
+    urls:
+    - hlf-ord-2.0.0.tgz
+    version: 2.0.0
+  hlf-peer:
+  - apiVersion: v2
+    appVersion: 2.2.1
+    created: "2022-04-06T18:49:44.95326245Z"
+    description: Hyperledger Fabric Peer chart (these charts are forked from the one
+      by AID:Tech and are currently not directly associated with them or Hyperledger
+      project)
+    digest: 32dc05cb59b454a48909c1da558f10a93644142b49c67a50ae01a5b53e441e25
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-peer
+    sources:
+    - https://github.com/hyperledger/fabric
+    type: application
+    urls:
+    - hlf-peer-5.1.0.tgz
+    version: 5.1.0
+  - apiVersion: v2
+    appVersion: 2.2.1
+    created: "2022-04-06T18:49:44.951267148Z"
+    description: Hyperledger Fabric Peer chart (these charts are forked from the one
+      by AID:Tech and are currently not directly associated with them or Hyperledger
+      project)
+    digest: 9ec789ff9193ff66e7229e3ca15a11e42bf13193ced8e5e4fc2b1ad71120c9ff
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-peer
+    sources:
+    - https://github.com/hyperledger/fabric
+    type: application
+    urls:
+    - hlf-peer-5.0.0.tgz
+    version: 5.0.0
+  - apiVersion: v2
+    appVersion: 2.2.1
+    created: "2022-04-06T18:49:44.949332646Z"
+    description: Hyperledger Fabric Peer chart (these charts are forked from the one
+      by AID:Tech and are currently not directly associated with them or Hyperledger
+      project)
+    digest: 466917db98a735a3d08f9310a260c7d3f22ba1ce5a99ce84f7ad0b951844d0fb
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-peer
+    sources:
+    - https://github.com/hyperledger/fabric
+    type: application
+    urls:
+    - hlf-peer-4.0.1.tgz
+    version: 4.0.1
+  - apiVersion: v2
+    appVersion: 2.2.1
+    created: "2022-04-06T18:49:44.948010445Z"
+    description: Hyperledger Fabric Peer chart (these charts are forked from the one
+      by AID:Tech and are currently not directly associated with them or Hyperledger
+      project)
+    digest: 3100a749140cc9b4d776a6e7328bb9e03f9d9164361da46c7d1cd68380877391
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    kubeVersion: '>= 1.19.0'
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-peer
+    sources:
+    - https://github.com/hyperledger/fabric
+    type: application
+    urls:
+    - hlf-peer-4.0.0.tgz
+    version: 4.0.0
+  - apiVersion: v1
+    appVersion: 2.2.1
+    created: "2022-04-06T18:49:44.946800043Z"
+    description: Hyperledger Fabric Peer chart (these charts are forked from the one
+      by AID:Tech and are currently not directly associated with them or Hyperledger
+      project)
+    digest: ac5c3e1d26f1318692ff7b7cffa1d310a7249d016737b117fed3f1d1a37a78cb
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-peer
+    sources:
+    - https://github.com/hyperledger/fabric
+    urls:
+    - hlf-peer-3.2.0.tgz
+    version: 3.2.0
+  - apiVersion: v1
+    appVersion: 2.2.1
+    created: "2022-04-06T18:49:44.945578642Z"
+    description: Hyperledger Fabric Peer chart (these charts are forked from the one
+      by AID:Tech and are currently not directly associated with them or Hyperledger
+      project)
+    digest: 1193e91f381c2eef5afaabd3f16e222a9136f30e463d702620b58df758329a0a
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-peer
+    sources:
+    - https://github.com/hyperledger/fabric
+    urls:
+    - hlf-peer-3.1.0.tgz
+    version: 3.1.0
+  - apiVersion: v1
+    appVersion: 2.2.1
+    created: "2022-04-06T18:49:44.94430974Z"
+    description: Hyperledger Fabric Peer chart (these charts are forked from the one
+      by AID:Tech and are currently not directly associated with them or Hyperledger
+      project)
+    digest: ca4deb563804008d11b563b3a6493d7ad95f889f5183541614c07e2fba069ba9
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-peer
+    sources:
+    - https://github.com/hyperledger/fabric
+    urls:
+    - hlf-peer-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v1
+    appVersion: 2.2.1
+    created: "2022-04-06T18:49:44.943229739Z"
+    description: Hyperledger Fabric Peer chart (these charts are forked from the one
+      by AID:Tech and are currently not directly associated with them or Hyperledger
+      project)
+    digest: 03e5b6807304840f7204bd695c50d6ee1a84e520144682dfee2513b15eb4cf1e
+    home: http://hyperledger-fabric.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    maintainers:
+    - email: alexandre.picosson@owkin.com
+      name: AlexandrePicosson
+    - email: aurelien.gasser@owkin.com
+      name: AurelienGasser
+    - email: inalgnu@ulipse.com
+      name: inalgnu
+    - email: kelvin.moutet@owkin.com
+      name: Kelvin-M
+    name: hlf-peer
+    sources:
+    - https://github.com/hyperledger/fabric
+    urls:
+    - hlf-peer-2.0.0.tgz
+    version: 2.0.0
+  mlhub:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2022-04-06T18:49:44.956384454Z"
+    description: Multi-user Jupyter installation
+    digest: 29ceafe3f30c6561d3be8d5dc4eae09f715fe3518433f0a19f4ec22b52707475
+    home: https://github.com/ml-tooling/ml-hub
+    icon: https://jupyter.org/assets/hublogo.svg
+    kubeVersion: '>= 1.19.0-0'
+    name: mlhub
+    sources:
+    - https://github.com/ml-tooling/ml-hub/helmchart
+    urls:
+    - mlhub-chart-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2022-04-06T18:49:44.954910652Z"
+    description: Multi-user Jupyter installation
+    digest: 04c52c1f3c5861ae5189f2a13cf82c953d15809ca4f3c4e4450bc73dfa716429
+    home: https://github.com/ml-tooling/ml-hub
+    icon: https://jupyter.org/assets/hublogo.svg
+    kubeVersion: '>=1.11.0-0'
+    name: mlhub
+    sources:
+    - https://github.com/ml-tooling/ml-hub/helmchart
+    urls:
+    - mlhub-chart-1.0.0.tgz
+    version: 1.0.0
+  pypiserver:
+  - apiVersion: v2
+    appVersion: 1.3.2
+    created: "2022-04-06T18:49:44.965253763Z"
+    description: PyPI compatible server for pip or easy_install.
+    digest: 7f7736daf03811743c9e09bd8ad22f50f9ed47c2f9904f77058fb01a929a6a3d
+    home: https://github.com/pypiserver/pypiserver
+    icon: https://raw.githubusercontent.com/pypiserver/pypiserver/master/pypiserver_logo.png
+    kubeVersion: '>= 1.18.5'
+    maintainers:
+    - email: clement@gautier.im
+      name: ClementGautier
+    name: pypiserver
+    sources:
+    - https://github.com/owkin/charts/tree/master/pypiserver
+    - https://github.com/pypiserver/pypiserver
+    - https://pypi.org/project/pypiserver/
+    type: application
+    urls:
+    - pypiserver-3.1.0.tgz
+    version: 3.1.0
+  - apiVersion: v2
+    appVersion: 1.3.2
+    created: "2022-04-06T18:49:44.964192262Z"
+    description: PyPI compatible server for pip or easy_install.
+    digest: 1d412c8d0feeda18137d8f3241bd816a2b9b2a87072fc8f0c6e82430020dddda
+    home: https://github.com/pypiserver/pypiserver
+    icon: https://raw.githubusercontent.com/pypiserver/pypiserver/master/pypiserver_logo.png
+    kubeVersion: '>= 1.18.5'
+    maintainers:
+    - email: clement@gautier.im
+      name: ClementGautier
+    name: pypiserver
+    sources:
+    - https://github.com/owkin/charts/tree/master/pypiserver
+    - https://github.com/pypiserver/pypiserver
+    - https://pypi.org/project/pypiserver/
+    type: application
+    urls:
+    - pypiserver-3.0.1.tgz
+    version: 3.0.1
+  - apiVersion: v2
+    appVersion: 1.3.2
+    created: "2022-04-06T18:49:44.963221661Z"
+    description: PyPI compatible server for pip or easy_install.
+    digest: 06c3fc9110326ff707beb80ceb579c12f4c08dd6fbb63b0ac7020cdf66491ba3
+    home: https://github.com/pypiserver/pypiserver
+    icon: https://raw.githubusercontent.com/pypiserver/pypiserver/master/pypiserver_logo.png
+    kubeVersion: '>= 1.18.5'
+    maintainers:
+    - email: clement@gautier.im
+      name: ClementGautier
+    name: pypiserver
+    sources:
+    - https://github.com/owkin/charts/tree/master/pypiserver
+    - https://github.com/pypiserver/pypiserver
+    - https://pypi.org/project/pypiserver/
+    type: application
+    urls:
+    - pypiserver-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v1
+    appVersion: 1.3.2
+    created: "2022-04-06T18:49:44.96241956Z"
+    description: PyPI compatible server for pip or easy_install.
+    digest: 0384b641f00955681247571362da06fde3f2961f8a8db0a408cd5a3a3eecaf6e
+    home: https://github.com/pypiserver/pypiserver
+    icon: https://raw.githubusercontent.com/pypiserver/pypiserver/master/pypiserver_logo.png
+    maintainers:
+    - email: clement@gautier.im
+      name: ClementGautier
+    name: pypiserver
+    sources:
+    - https://github.com/owkin/charts/tree/master/pypiserver
+    - https://github.com/pypiserver/pypiserver
+    - https://pypi.org/project/pypiserver/
+    urls:
+    - pypiserver-2.2.1.tgz
+    version: 2.2.1
+  - apiVersion: v1
+    appVersion: 1.3.2
+    created: "2022-04-06T18:49:44.961651059Z"
+    description: PyPI compatible server for pip or easy_install.
+    digest: 70444981899fbea88cf81b4756c8646d9b8be4217003ef1f4a37fe6668a87117
+    home: https://github.com/pypiserver/pypiserver
+    icon: https://raw.githubusercontent.com/pypiserver/pypiserver/master/pypiserver_logo.png
+    maintainers:
+    - email: clement@gautier.im
+      name: ClementGautier
+    name: pypiserver
+    sources:
+    - https://github.com/owkin/charts/tree/master/pypiserver
+    - https://github.com/pypiserver/pypiserver
+    - https://pypi.org/project/pypiserver/
+    urls:
+    - pypiserver-2.2.0.tgz
+    version: 2.2.0
+  - apiVersion: v1
+    appVersion: 1.3.2
+    created: "2022-04-06T18:49:44.960935259Z"
+    description: PyPI compatible server for pip or easy_install.
+    digest: d08d439ce947bddfaa0180fb8e3befc84011e62865c25a6f7c4d764296f37375
+    home: https://github.com/pypiserver/pypiserver
+    icon: https://raw.githubusercontent.com/pypiserver/pypiserver/master/pypiserver_logo.png
+    maintainers:
+    - email: clement@gautier.im
+      name: ClementGautier
+    name: pypiserver
+    sources:
+    - https://github.com/owkin/charts/tree/master/pypiserver
+    - https://github.com/pypiserver/pypiserver
+    - https://pypi.org/project/pypiserver/
+    urls:
+    - pypiserver-2.1.0.tgz
+    version: 2.1.0
+  - apiVersion: v1
+    appVersion: 1.3.2
+    created: "2022-04-06T18:49:44.960239358Z"
+    description: PyPI compatible server for pip or easy_install.
+    digest: 4fe73b9ff26e960ea5e53a5c87db7523153264f690b4d9f3e8aa78100dfc85e8
+    home: https://github.com/pypiserver/pypiserver
+    icon: https://raw.githubusercontent.com/pypiserver/pypiserver/master/pypiserver_logo.png
+    maintainers:
+    - email: clement@gautier.im
+      name: ClementGautier
+    name: pypiserver
+    sources:
+    - https://github.com/owkin/charts/tree/master/pypiserver
+    - https://github.com/pypiserver/pypiserver
+    - https://pypi.org/project/pypiserver/
+    urls:
+    - pypiserver-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v1
+    appVersion: 1.3.0
+    created: "2022-04-06T18:49:44.959497257Z"
+    description: PyPI compatible server for pip or easy_install.
+    digest: 4a63de4332ca6baad84866d06e326300bb447fe31f68161e61828a8d479f5182
+    home: https://github.com/pypiserver/pypiserver
+    icon: https://raw.githubusercontent.com/pypiserver/pypiserver/master/pypiserver_logo.png
+    maintainers:
+    - email: clement@gautier.im
+      name: ClementGautier
+    name: pypiserver
+    sources:
+    - https://github.com/owkin/charts/tree/master/pypiserver
+    - https://github.com/pypiserver/pypiserver
+    - https://pypi.org/project/pypiserver/
+    urls:
+    - pypiserver-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
+    appVersion: 1.2.7
+    created: "2022-04-06T18:49:44.958329656Z"
+    description: PyPI compatible server for pip or easy_install.
+    digest: 28f1d4bf66925987f5a45997095cff5d6946740ff5f420bdc4388d73f1d28026
+    home: https://github.com/pypiserver/pypiserver
+    icon: https://raw.githubusercontent.com/pypiserver/pypiserver/master/pypiserver_logo.png
+    maintainers:
+    - email: clement@gautier.im
+      name: ClementGautier
+    name: pypiserver
+    sources:
+    - https://github.com/pypiserver/pypiserver
+    - https://pypi.org/project/pypiserver/
+    urls:
+    - pypiserver-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: 1.2.7
+    created: "2022-04-06T18:49:44.957674155Z"
+    description: PyPI compatible server for pip or easy_install.
+    digest: e3575a537d7cc0c099b3086a1053d498ed7ff3f53e28666eec82b1a7658ab029
+    home: https://github.com/pypiserver/pypiserver
+    icon: https://raw.githubusercontent.com/pypiserver/pypiserver/master/pypiserver_logo.png
+    maintainers:
+    - email: clement@gautier.im
+      name: ClementGautier
+    name: pypiserver
+    sources:
+    - https://github.com/pypiserver/pypiserver
+    - https://pypi.org/project/pypiserver/
+    urls:
+    - pypiserver-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
+    appVersion: 1.2.7
+    created: "2022-04-06T18:49:44.957046754Z"
+    description: PyPI compatible server for pip or easy_install.
+    digest: 59a22443adf56357d630f0a78bc5e8e53a1d2a53e8c26e91ad5cc85a6933941d
+    home: https://github.com/pypiserver/pypiserver
+    icon: https://raw.githubusercontent.com/pypiserver/pypiserver/master/pypiserver_logo.png
+    maintainers:
+    - email: clement@gautier.im
+      name: ClementGautier
+    name: pypiserver
+    sources:
+    - https://github.com/pypiserver/pypiserver
+    - https://pypi.org/project/pypiserver/
+    urls:
+    - pypiserver-1.0.0-rc.1.tgz
+    version: 1.0.0-rc.1
+generated: "2022-04-06T18:49:44.924581019Z"
