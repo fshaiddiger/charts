@@ -1,7 +1,7 @@
 apiVersion: v2
 name: pypiserver
 version: 3.1.0
-kubeVersion: ">= 1.19.0-0"
+kubeVersion: ">= v1.18.5"
 description: PyPI compatible server for pip or easy_install.
 type: application
 home: https://github.com/pypiserver/pypiserver
